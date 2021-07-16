@@ -1,0 +1,209 @@
+#section1{
+    background-image: url('images/kalimoni.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 700px;
+    background-image: cover;
+    display: inline-block;
+    width: 100%;
+   
+   
+ }
+
+.top-nav{
+    background-color: rgb(163,163,109);
+    margin-bottom: 78pt;
+    line-height: 5px;
+    color: rgb(241, 235, 235);
+    text-decoration: none;
+    height: 8vh;
+    justify-content: center;
+
+    
+    
+}
+.top-nav a:hover{
+    color: red;
+}
+
+.top-nav a{
+    color: rgb(241, 235, 235);
+    margin-left: 15px;
+    text-decoration: none;
+    justify-content: center;
+
+}
+
+.top-nav a:hover{
+    color: red;
+}
+
+
+
+.top-nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 100px;
+    margin-bottom: -30%;
+} 
+
+#top img{
+    margin-left: 5%;
+    bottom: -5%;
+}
+.nav{
+    list-style-type: none;
+    margin-left: 20%;
+    padding: 0;
+    text-align: center;
+
+}
+.nav{
+    /* width: 80%; */
+    overflow: hidden;
+    display: inline;
+    margin-left: 80%;
+    margin-bottom: -100px;
+}
+ul{
+    padding:0;
+    margin: 0;
+    list-style: none;
+}
+nav a {
+    text-decoration: none;
+    font-family: Arial;
+    float: left;
+    color: whitesmoke;
+    text-align: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-left: 60px;
+}
+ /* changing text color when hovering */
+
+nav a:hover{
+    color: red;
+
+}
+
+nav img{
+    float: left;
+   
+    
+
+}
+
+nav{
+    color: whitesmoke;
+}
+#mine{
+    padding-left: 20%;
+    color: white;
+}
+h1{
+    margin-top: 12%;
+    margin-left: 40px;
+    color: white;
+    text-align: center;
+    font-family: Arial;
+   
+}
+
+h2{
+    color: white;
+    text-align: center;
+    font-family: Arial;
+}
+
+#cont{
+    float: right;
+    padding: 1%;
+    text-align: center;
+}
+
+.navbar{
+    background-color: teal;
+    text-align: center;
+    height: 100px;
+    width: 700px;
+    padding: 25px;
+}
+
+lock{
+    float: right;
+}
+.navbar{
+    text-align: center;
+    background-color: white;
+    height: 50px;
+    width: 900px;
+    margin-left: 170px;
+    border: 15px solid rgb(102,96,66);
+   
+}
+.btnshop{
+    height: 50px;
+    width: 110px;
+    margin-right:300px ;
+    padding-bottom: 1%;
+}
+.btn {
+    background-color: rgb(217,68,53);
+    height: 60px;
+   
+    color: whitesmoke;
+    border: whitesmoke;
+    /* width: 10px;
+    height: 20px;
+     */
+}
+.form-control{
+    height: 50px;
+    width: 200px;
+}
+
+#inner-nav{
+  position: fixed;
+  width: 100%;
+  top: 0;
+  left: 0;
+  color: white;
+  padding: 10em;
+  
+}
+
+
+
+.navbar {
+margin-left: 8%;
+
+}
+
+
+#section2{
+    height: 700px;
+    background: green;
+    display: inline-block;
+    width: 100%;
+
+    
+
+}
+/* #section2{
+    color: black;
+
+} */
+
+h3{
+    color: black;
+    text-align: center;
+ 
+
+  }
+
+/* section2 */
+#section2 img{
+    
+
+}
