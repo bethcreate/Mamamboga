@@ -183,7 +183,7 @@ margin-left: 8%;
 
 #section2{
     height: 700px;
-    background: green;
+    background: white;
     display: inline-block;
     width: 100%;
 
@@ -196,14 +196,101 @@ margin-left: 8%;
 } */
 
 h3{
-    color: black;
+    color: green;
     text-align: center;
- 
-
+    font-size: 30px;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+  }
+  p{
+      text-align: center;
   }
 
 /* section2 */
 #section2 img{
-    
+    text-align: center;
+    margin-left: 45%;
+    margin-top: 70px;
+   
 
 }
+/* 1st Button */
+.button{
+    background-color: transparent; /* Green */
+    border-radius: 20px;
+    color: black;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 20%;
+    padding-left: 5%;
+    
+
+  }
+  .button:hover{
+      color: white;
+  }
+
+  /* second button */
+  .button2{
+    background-color: red; 
+    border-radius: 20px;
+    color: white;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 30%;
+  }
+  .button2:hover{
+      color: green;
+  }
+
+  .Button{
+      /* margin: 10px; */
+      padding-top: 17px; 
+      padding-bottom: 0px;
+      margin-right: 15px;
+  }
+
+  /* section3 styling */
+  .section3{
+      background-color: grey;
+      height: 700px;
+      display: inline-block;
+      width: 100%;
+  }
+
+  .row::after{
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .column{
+    float: left;
+    width: 50%;
+  }
+  .section3{
+      float: right;
+  }
+/* button3 styling */
+  .Button3{
+    background-color: red; 
+    border-radius: 20px;
+    padding: 10px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-left: 45%;
+
+
+  }
+
+  
+
+
