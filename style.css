@@ -249,14 +249,23 @@ h3{
       color: green;
   }
 
-  .Button{
-      /* margin: 10px; */
+  /* .Button{
+     margin: 10px; 
       padding-top: 17px; 
       padding-bottom: 0px;
-      margin-right: 15px;
+      margin-right: 1px;
+  } */
+  .Button{
+      height: 50px;
+      width: 50px;
   }
 
   /* section3 styling */
+  #categories{
+      color: green;
+      font-size: 30px;
+      margin-top: 80px;
+  }
   .section3{
       background-color: grey;
       height: 700px;
@@ -264,22 +273,25 @@ h3{
       width: 100%;
   }
 
-  .row::after{
+  .column3{
+    float: left;
+    width: 33.33%;
+    /* padding: 10px; */
+    /* height: 300px; Should be removed. Only for demonstration */
+  }
+  
+  /* Clear floats after the columns */
+  .row3:after {
     content: "";
     display: table;
     clear: both;
   }
-
-  .column{
-    float: left;
-    width: 50%;
-  }
-  .section3{
+  /* .section3{
       float: right;
-  }
+  } */
 /* button3 styling */
-  .Button3{
-    background-color: red; 
+  .button4{
+    background-color:white; 
     border-radius: 20px;
     padding: 10px 40px;
     text-align: center;
@@ -290,6 +302,73 @@ h3{
 
 
   }
+
+  /* section4 styling */
+  #section4{
+      background-color: beige;
+      display: inline-block;
+      width: 100%;
+     
+      height: 700px;
+      
+      /* background-image: url(images/farmerklmn.jpeg);
+      background-repeat: no-repeat;
+      background-size: cover; */
+      
+  }
+  .image{
+      margin-bottom: -450%;
+      right: 100%;
+  
+      text-align: center;
+      margin-top: -500%;
+      
+  }
+  .farmer2{
+   bottom: -300px;
+   
+   
+  }
+  .farmer{
+      font-style: italic;
+      color: green;
+      
+  }
+
+  /* section5 */
+  .column5 {
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Clear floats after the columns */
+  .row5:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .section6{
+      height: 200px;
+      background-color: #D74434;
+  }
+  .column6 {
+    float: left;
+    width: 33.33%;
+  }
+  
+  /* Clear floats after the columns */
+  .row6:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+
+
+
+ 
+  
 
   
 
