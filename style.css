@@ -243,7 +243,7 @@ h3{
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin-left: 30%;
+    margin-right: -70%;
   }
   .button2:hover{
       color: green;
@@ -283,15 +283,18 @@ h3{
   /* Clear floats after the columns */
   .row3:after {
     content: "";
-    display: table;
-    clear: both;
+  display: table;
+  clear: both;
   }
-  /* .section3{
+  .row3{
       float: right;
-  } */
+      width: 33.33%;
+      
+
+  }
 /* button3 styling */
   .button4{
-    background-color:white; 
+    /* background-color:white;  */
     border-radius: 20px;
     padding: 10px 40px;
     text-align: center;
